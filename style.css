@@ -53,6 +53,7 @@ nav ul {
     margin: 0;
     padding-right: 40px;
     transition: 1s;
+    text-decoration: none;
 }
 
 nav.black ul {
@@ -69,7 +70,13 @@ nav ul li a {
     color: #fff;
     font-size: 16px;
 }
-
+nav .menu{
+    text-decoration:none;
+}
+.menu ul li a:hover{
+    text-decoration:none;
+    color:#808000
+}
 .menu-icon {
     line-height: 60px;
     width: 100%;
@@ -145,8 +152,8 @@ nav ul li a {
   }
   .heroBtn {
     transition: all 0.5s ease;
-    color: #ffbf00;
-    border: 3px solid #ffbf00;
+    color: khaki;
+    border: 3px solid khaki;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -159,7 +166,7 @@ nav ul li a {
     margin-top: 15rem;
   }
   .heroBtn a{
-    color: #ffbf00;
+    color: khaki;
   }
   .heroBtn a:hover{
     color: white;
@@ -167,7 +174,7 @@ nav ul li a {
   }
   button:hover {
     color: #001f3f;
-    background-color: #ffbf00;
+    background-color: khaki;
   }
   
   body {
@@ -358,3 +365,42 @@ nav ul li a {
       text-decoration:none;
       color: orange;
   }
+                          
+#services {
+
+}
+#services .services-top {
+    padding: 70px 0 50px;
+}
+#services .services-list {
+    padding-top: 50px;
+}
+.services-list .service-block {
+    margin-bottom: 25px;
+}
+.services-list .service-block .ico {
+    font-size: 38px;
+    float: left;
+}
+.services-list .service-block .text-block {
+    margin-left: 58px;
+}
+.services-list .service-block .text-block .name {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.services-list .service-block .text-block .info {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.services-list .service-block .text-block .text {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 300;
+}
+.highlight {
+    color: #808000;
+    font-weight:bold;
+}                    
