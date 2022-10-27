@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: #000;
 }
 
 body {
@@ -147,8 +148,12 @@ nav .menu{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: "Montserrat";
-    letter-spacing: 10px;
+    font-family: 'Roboto Slab', serif;
+    /* letter-spacing: 10px; */
+    /* font-size: 5rem; */
+  } 
+  .heroTitle{
+    font-size: 5rem;
   }
   .heroBtn {
     transition: all 0.5s ease;
@@ -199,7 +204,7 @@ nav .menu{
 #about {
     padding-top: 50px;
     padding-bottom: 50px;
-    //height:125vh;
+    /* //height:125vh; */
     background-color: black;
     color: white;
     overflow:hidden;
@@ -217,7 +222,8 @@ nav .menu{
   #about h1 {
     padding-top:25px;
     padding-bottom: 50px;
-    //border-bottom: 1px solid white;
+    /* //border-bottom: 1px solid white; */
+    font-family: 'Roboto Slab', serif;
   }
   /* #about .about-underline{
       border-bottom: 1px solid black
@@ -236,26 +242,31 @@ nav .menu{
   #about-col ul li {
     padding-top: 15px;
     color:white;
-    list-type:none;
+    
     background-color:red;
     list-style-type:none;
   }
-  
-
+ 
+.col-img {
+  margin-bottom: 2rem;
+}
 
 
   /* product */
 #product {
-   padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 10px;
     background-color:black;
     color:white;
+  
+    /* margin-top: -240px; */
   }
   
   #product h1 {
-   //border-bottom: 1px solid white;
+   /*border-bottom: 1px solid white;*/
     padding-bottom: 70px;
    padding-top: -80px;
+   font-family:
   }
   #product-col2 h3{
     margin-top:3rem;
@@ -272,7 +283,7 @@ nav .menu{
   }
   @media only screen and (max-width: 800px){
       #product h1{
-          margin-top: 15rem;
+          /* margin-top: 15rem; */
       }
   }
   /* media */
@@ -292,7 +303,7 @@ nav .menu{
      }
     
   }
-  //GALLERY
+  /* //GALLERY */
 @media only screen and (max-width: 768px){
     .gallery-container{
       width: 50%; 
@@ -404,3 +415,4 @@ nav .menu{
     color: orange;
     font-weight:bold;
 }                    
+/*font-family: 'Roboto Slab', serif;*/
