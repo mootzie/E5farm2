@@ -75,7 +75,7 @@ nav .menu{
 }
 .menu ul li a:hover{
     text-decoration:none;
-    color:#808000
+    color:orange;
 }
 .menu-icon {
     line-height: 60px;
@@ -153,7 +153,7 @@ nav .menu{
   .heroBtn {
     transition: all 0.5s ease;
     color: khaki;
-    border: 3px solid khaki;
+    border: 3px solid orange;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -166,7 +166,7 @@ nav .menu{
     margin-top: 15rem;
   }
   .heroBtn a{
-    color: khaki;
+    color: orange;
   }
   .heroBtn a:hover{
     color: white;
@@ -174,7 +174,7 @@ nav .menu{
   }
   button:hover {
     color: #001f3f;
-    background-color: khaki;
+    background-color: orange;
   }
   
   body {
