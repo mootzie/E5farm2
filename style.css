@@ -155,7 +155,8 @@ nav .menu{
     /* font-size: 5rem; */
   } 
   .heroTitle{
-    font-size: 5rem;
+    font-size: 4rem;
+    overflow: hidden;
   }
   .heroBtn {
     transition: all 0.5s ease;
@@ -205,6 +206,8 @@ nav .menu{
         list-style-type:none;
       }
   } */
+
+  /*ABOUT*/
 #about {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -254,6 +257,19 @@ nav .menu{
  
 .col-img {
   margin-bottom: 2rem;
+}
+.about-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.about-wrapper img {
+  flex: 0 0 50%;
+}
+@media only screen and (max-width:720px) {
+  .about-wrapper {
+    flex-direction: column-reverse;
+  }
 }
 
 
@@ -396,7 +412,16 @@ nav .menu{
       text-decoration:none;
       color: orange;
   }
-                          
+  
+  .card {
+    color:rgb(255, 255, 255)}
+  .card .card-body {
+    background-color: olive;
+  }
+  .card .card-header{
+    background-color: khaki;
+    color: khaki;
+  }
 #services h1 {
      font-family: 'Roboto Slab', serif;
 
@@ -436,4 +461,3 @@ nav .menu{
     color: orange;
     font-weight:bold;
 }                    
-/*font-family: 'Roboto Slab', serif;*/
