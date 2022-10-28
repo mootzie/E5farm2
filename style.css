@@ -34,6 +34,7 @@ header {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2px;
+    /* background-color:olive; */
 }
 
 nav {
@@ -64,6 +65,7 @@ nav.black ul {
 nav ul li {
     display: inline-block;
     padding: 16px 40px;;
+    font-family: "Robato slab"
 }
 
 nav ul li a {
@@ -172,7 +174,9 @@ nav .menu{
   }
   .heroBtn a{
     color: orange;
+    text-decoration: none;
   }
+ 
   .heroBtn a:hover{
     color: white;
     text-decoration:none
@@ -224,6 +228,7 @@ nav .menu{
     padding-bottom: 50px;
     /* //border-bottom: 1px solid white; */
     font-family: 'Roboto Slab', serif;
+    letter-spacing: .5rem;
   }
   /* #about .about-underline{
       border-bottom: 1px solid black
@@ -261,12 +266,15 @@ nav .menu{
   
     /* margin-top: -240px; */
   }
+  #product .card{
+    color:black;
+  }
   
   #product h1 {
    /*border-bottom: 1px solid white;*/
     padding-bottom: 70px;
    padding-top: -80px;
-   font-family:
+    font-family: 'Roboto', serif;
   }
   #product-col2 h3{
     margin-top:3rem;
@@ -301,7 +309,19 @@ nav .menu{
      .social-col{
          width: 33%;
      }
+     .heroTitle{ 
+        font-size: 2rem;
+        overflow-x:hidden;
+         font-family: 'Roboto Slab', serif;
+     }
     
+    .logo {
+        /* background-color: #fff; */
+    }
+    #product .card{
+        
+      }
+      
   }
   /* //GALLERY */
 @media only screen and (max-width: 768px){
@@ -377,7 +397,8 @@ nav .menu{
       color: orange;
   }
                           
-#services {
+#services h1 {
+     font-family: 'Roboto Slab', serif;
 
 }
 #services .services-top {
