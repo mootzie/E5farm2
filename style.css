@@ -40,8 +40,9 @@ header {
 nav {
     position: fixed;
     width: 100%;
-    line-height: 60px;
+    /* line-height: 60px; */
     z-index:3;
+    margin: 0;
 }
 
 nav ul {
@@ -56,6 +57,7 @@ nav ul {
     padding-right: 40px;
     transition: 1s;
     text-decoration: none;
+    font-family: "Robato";
 }
 
 nav.black ul {
@@ -330,73 +332,9 @@ nav .menu{
         overflow-x:hidden;
          font-family: 'Roboto Slab', serif;
      }
-    
-    .logo {
-        /* background-color: #fff; */
-    }
-    #product .card{
-        
-      }
-      
   }
+  
   /* //GALLERY */
-@media only screen and (max-width: 768px){
-    .gallery-container{
-      width: 50%; 
-    }
-  }
-  .gallery-container {
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-    
-    .thumbnails {
-      position: absolute;
-      bottom: 8px;
-      display: flex;
-      flex-direction: row;
-      gap: 6px;
-    }
-    
-    .thumbnails div {
-      width: 8px;
-      height: 8px;
-      cursor: pointer;
-      background: #aaa;
-      border-radius: 100%;
-    }
-    
-    .thumbnails div.highlighted {
-      background-color: #777;
-    }
-    
-    .slides {
-      margin: 0 16px;
-      display: grid;
-      grid-auto-flow: column;
-      gap: 1rem;
-      width: 540px;
-      padding: 0 0.25rem;
-      height: 50vh;
-      overflow-y: auto;
-      overscroll-behavior-x: contain;
-      scroll-snap-type: x mandatory;
-      scrollbar-width: none;
-    }
-    
-    .slides > div {
-      scroll-snap-align: start;
-    }
-    
-    .slides img {
-      width: 540px;
-      object-fit: contain;
-    }
-    
-    .slides::-webkit-scrollbar {
-      display: none;
-    }
 
     .footer {
     position: fixed;
@@ -412,16 +350,7 @@ nav .menu{
       text-decoration:none;
       color: orange;
   }
-  
-  .card {
-    color:rgb(255, 255, 255)}
-  .card .card-body {
-    background-color: olive;
-  }
-  .card .card-header{
-    background-color: khaki;
-    color: khaki;
-  }
+
 #services h1 {
      font-family: 'Roboto Slab', serif;
 
@@ -461,3 +390,18 @@ nav .menu{
     color: orange;
     font-weight:bold;
 }                    
+  
+
+
+/* CARD */
+.card-title  {
+  text-align: center;
+
+} 
+.card-body {
+  text-decoration: none;
+  list-style-type: none;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
